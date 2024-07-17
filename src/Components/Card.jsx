@@ -10,7 +10,7 @@ function Card() {
     ]
 
     return (
-        <div className="w-full h-screen flex items-center justify-center gap-10 bg-zinc-200">
+        <div className="w-full h-screen flex items-center justify-center gap-10 bg-zinc-300">
             {data.map((elem, index)=>(
                 <div key={index} className='w-52 bg-zinc-100  rounded-md overflow-hidden'>
                 <div className='w-full h-32 bg-zinc-300'>
