@@ -25,6 +25,7 @@ function Card() {
                     <p className='text-xs mt-3'>
                         {elem.description}
                     </p>
+                    <button className='px-4 py-2 bg-blue-400 text-xs rounded-full font-semibold border-cyan-200  border-x-2 border-y-2 text-zinc-100 mt-3'>Know more</button>
                 </div>
             </div>
             ))}
