@@ -5,7 +5,7 @@ import Song from "./Components/Song";
 function abcd(){
   return (
     <>
-        
+        <Card/>
         <Song/>
     </>
 );
